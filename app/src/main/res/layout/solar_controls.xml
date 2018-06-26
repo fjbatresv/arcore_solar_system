@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/testview"
+    android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_bg"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:clipChildren="false"
+    android:clipToPadding="false" >
+
+    <TextView
+        android:id="@+id/orbitHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Orbit Speed:"
+        android:textAlignment="center" />
+
+    <SeekBar
+        android:id="@+id/orbitSpeedBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp" />
+
+    <TextView
+        android:id="@+id/rotationHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rotation Speed:"
+        android:textAlignment="center"
+        android:paddingTop="2dp" />
+
+    <SeekBar
+        android:id="@+id/rotationSpeedBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp" />
+
+</LinearLayout>

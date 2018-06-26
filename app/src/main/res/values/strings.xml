@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ARExample</string>
+    <string name="plane_finding">Buscando por superficie&#8230;</string>
+</resources>
